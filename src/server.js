@@ -8,7 +8,7 @@ const server = http.createServer(app);
 // MONGODB DATABASE CONNECTION
 connectToMongoDb(process.env.MONGODB_URI);
 
-// SERVER REQUEST LISTENER
+// LISTIONER
 server.listen(process.env.PORT, () => {
   console.log(`Server is running on port ${process.env.PORT}`);
 });

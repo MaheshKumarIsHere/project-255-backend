@@ -1,0 +1,4 @@
+#### THIS FILE ONLY FOR KNOW TO LIST OF ENV VARIABLES ####
+
+PORT = write your own server port to .env file
+MONGODB_URI = your database connection url

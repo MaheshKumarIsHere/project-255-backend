@@ -24,6 +24,9 @@ app.use(express.json());
 app.use(cors());
 
 // ROUTES
+app.get("/", (req, res, next) => {
+  res.status(200).json({ message: "working" });
+});
 app.use("/api/v1/visa", visaRouter);
 
 // GLOBAL ROUTE 404 NOT FOUND
